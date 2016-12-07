@@ -1,3 +1,4 @@
+rails5のapiモードでRailsプロジェクトを作成
 ```
 mkdir my_app
 echo "source 'https://rubygems.org'\ngem 'rails'" > Gemfile
