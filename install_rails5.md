@@ -1,9 +1,6 @@
-rbenv install 2.3.3
-rbenv global 2.3.3
-rbenv rehash
-gem install bundle
- 
-echo "gem 'rails'" > Gemfile
-bundle install --path vendor/bundle 
-
-rails new . --api
+```
+mkdir my_app
+echo "source 'https://rubygems.org'\ngem 'rails'" > Gemfile
+bundle install --path vendor/bundle
+bundle exec rails new . --api
+```
