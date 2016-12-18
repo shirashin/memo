@@ -2,6 +2,8 @@
 node v4.4.0
 npm 3.9.6
 
+riot.js
+
 babel
 
 webpack
